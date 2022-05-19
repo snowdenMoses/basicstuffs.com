@@ -1,0 +1,62 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .sections{
+    display: inline;
+} */
+
+.section1{
+    background-color: brown;
+}
+
+.section2{
+    background-color: blue;
+}
+
+.section3{
+    background-color: orangered;
+    /* z-index: 1; */
+}
+
+.section4{
+    background-color: black;
+}
+
+.box{
+    background-color: blue;
+    height: 150px;
+    width:150px;
+    z-index: 0;
+
+}
+
+div.section{
+    min-width:100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    
+    /* display:inline-block; */
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.container{
+    position: relative;
+    /* overflow-x: hidden; */
+    
+    /* height: auto;
+    width: auto; */    
+}
+
+.sydney_image{
+    object-fit: contain;  
+}
+
+.image{
+    /* max-height: 100vh; */
+    min-width: 100%;
+}

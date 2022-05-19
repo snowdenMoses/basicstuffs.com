@@ -1,0 +1,39 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .sections{
+    display: inline;
+} */
+
+.section1{
+    background-color: brown;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.section2{
+    background-color: beige;
+    height: 100vh;
+}
+
+
+
+.box{
+    background-color: blue;
+    height: 150px;
+    width:150px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    top:50%;
+
+
+}
+
+.container{
+       
+}
